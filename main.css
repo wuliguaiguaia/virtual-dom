@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+  }
+  table tr{
+    background-color:rgb(231, 230, 230);
+  }
+  table tr td{
+    font-size: 14px;
+    padding: 5px;
+  }
+  #head {
+    background-color: rgb(128, 128, 128);
+    color: #fff;
+    cursor: pointer;
+  }
+  #head th {
+    font-weight: normal;
+    padding:3px 15px;
+  }
+  
+  #head th.active{
+    background-color: #666;
+  }
